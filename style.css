@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header, footer {
+    background-color: darkcyan;
+    height: 50px;
+    width: 100%;
+    position: relative;
+
+}
+
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+.container {
+    display: flex;
+    background-color: darkcyan;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    width: 400px;
+    height: 600px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px black;
+    padding: 50px;
+    
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 50px;
+    font: bold 2rem serif;
+    border-bottom: solid 5px black;
+
+}
+
+.input{
+    display: flex;
+    gap: 15px;
+    font: bold 1rem serif;
+    align-items: center;
+    font-size: 1.5rem;
+    justify-content: space-between;
+    
+    
+}
+input {
+    padding: 5px;
+    text-align: start;
+    display: flex;
+    justify-content: space-around;
+}
+
+button {
+    display: flex;
+    padding: 10px;
+    font-size: 1rem;
+    box-shadow: 0 0 2px black;
+    border-radius: 10px;
+    width: 60%;
+    align-items: center;
+    text-align: center;
+    
+}
+
+#calcular {
+    display: flex;
+    justify-content: center;
+    
+}
+
+.image {
+    position: absolute;
+    z-index: -1;
+    bottom: 5px;
+
+}
+
+.result {
+    height: 180px;
+    width: 100%;
+    border-radius: 20px;
+    background-color: black;
+    color: rgb(247, 231, 8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: larger;
+}
