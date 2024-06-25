@@ -16,7 +16,7 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 100vw;
+    width: 100%;
     height: 100vh;
 }
 
@@ -66,18 +66,19 @@ button {
     display: flex;
     padding: 10px;
     font-size: 1rem;
-    box-shadow: 0 0 2px black;
     border-radius: 10px;
     width: 60%;
     align-items: center;
     text-align: center;
+    appearance: auto;
+    font-weight: bold;
     
 }
 
 #calcular {
     display: flex;
     justify-content: center;
-    
+
 }
 
 .image {
@@ -96,6 +97,8 @@ button {
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 10px;
+    text-align: center;
     font-family: 'Times New Roman', Times, serif;
     font-size: larger;
 }
