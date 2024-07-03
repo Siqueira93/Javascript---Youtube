@@ -4,8 +4,8 @@
 }
 
 header, footer {
-    background-color: darkcyan;
-    height: 50px;
+    background-color: rgba(0, 139, 139, 0.678);
+    height: 35px;
     width: 100%;
     position: relative;
 
@@ -22,15 +22,15 @@ main {
 
 .container {
     display: flex;
-    background-color: darkcyan;
+    background-color: rgba(0, 139, 139, 0.678);
     align-items: center;
     justify-content: space-evenly;
     flex-direction: column;
-    width: 400px;
-    height: 600px;
+    width: 350px;
+    height: 550px;
     border-radius: 20px;
     box-shadow: 0 0 10px black;
-    padding: 50px;
+    padding: 30px;
     
 }
 
